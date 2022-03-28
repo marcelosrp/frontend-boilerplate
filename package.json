@@ -1,7 +1,7 @@
 {
   "name": "frontend-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "js/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html --open",
@@ -9,7 +9,16 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
+    "eslint": "^8.12.0",
     "parcel-bundler": "^1.12.5",
+    "prettier": "^2.6.0",
     "sass": "^1.47.0"
-  }
+  },
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
+  ]
 }
